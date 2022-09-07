@@ -1,0 +1,117 @@
+.nav{
+
+    position: sticky;
+    width: 100%;
+    height: 58px;
+    top: 0;
+    z-index: 1001;
+    background: #fff;
+    box-shadow: 0 2px 13px 0 rgb(0 0 0 / 25%);
+
+}
+
+.nav_container {
+    width: 100%;
+    max-width: 1436px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.nav_wrapper{
+    display: flex;
+}
+/* @media (min-width: 1024px) */
+
+.nav_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.menu_home{
+    background: #f6f6f6;
+    width: 58px;
+    padding: 0;
+}
+
+
+
+.nav{
+background-color: #fff;
+}
+
+.item_Style{
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.nav-link{
+    color:#000000;
+    font-size: 16px;
+
+}
+
+
+
+.nav-btn{
+    margin:0px 5px;
+    font-size: 10px;
+    line-height: 32px;
+    padding:0px 32px;
+    border-radius: 0px;
+   
+
+}
+.nav-left{
+    width:100%;
+}
+
+
+
+.card_apply {
+    margin: 40px 0 40px 16px;
+    z-index: 1;
+    width: 500px;
+    flex-shrink: 0;
+    background-color: #fff;
+  
+    box-shadow: 0 0 8px rgb(12 119 185 / 28%);
+}
+.box{
+    padding: 24px 24px 16px 24px;
+}
+
+.card_title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+h2 {
+    display: block;
+    
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  
+}
+
+.card_desc {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+    
+}
