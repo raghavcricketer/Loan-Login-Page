@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form-v1 by Colorlib</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="page-content">
+		<div class="form-v1-content">
+			<div class="wizard-form">
+		        <form class="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<p class="step-icon"><span>01</span></p>
+			            	<span class="step-text">Personal Infomation</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div class="wizard-header">
+									<h3 class="heading">Personal Infomation</h3>
+									<p>Please enter your infomation and proceed to the next step so we can build your accounts.  </p>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<legend>First Name</legend><legend id="set-text-firstname"></legend>
+										<fieldset>
+											<input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name" onChange="FirstName()" required>
+										</fieldset>
+									</div>
+									<div class="form-holder">
+										<legend>Last Name</legend><legend id="set-text-lastname"></legend>
+										<fieldset>
+											<input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" onChange="LastName()" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>Your Email</legend><legend id="set-text-email"></legend>
+										<fieldset>
+											<input type="text" name="your_email" id="your_email" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="example@email.com" onChange="isEmail()" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>Phone Number</legend><legend id="set-text-number"></legend>
+										<fieldset>
+											<input type="text" class="form-control" id="phone" name="phone" placeholder="+1 888-999-7777" onchange="isNumber()" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>Your Password</legend><legend id="set-text-password"></legend>
+										<fieldset>
+											<input type="password" name="your_password" id="your_password1" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" onchange="isPassword()" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<legend>Confirm Password</legend><legend id="set-text-confirm-password"></legend>
+										<fieldset>
+											<input type="password" name="your_password" id="your_password2" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" onchange="isConfirm()" required>
+										</fieldset>
+									</div>
+								</div>
+								<div class="form-row form-row-date">
+									<div class="form-holder form-holder-2">
+										<legend>Birth Date</legend><legend id="set-text-birthdate"></legend>
+										<fieldset>
+											<input type="date" name="your_password" id="birth" class="form-control" pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" onchange="isBirthdate()" placeholder="14-09-1979" required>
+										</field>
+									</div>
+								</div>
+							</div>
+			            </section>
+						<div class = "form-row">
+							<legend>Already registered? <a href="file:///C:/Users/jlrag/Downloads/Loan-Login-Page-main/loginpage.html">Login </a></legend>
+						</div>
+					</div>
+					
+	
+		        </form>
+				
+				
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
